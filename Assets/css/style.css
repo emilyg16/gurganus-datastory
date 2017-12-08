@@ -1,0 +1,33 @@
+section#explained,
+section#data,
+section#calltoaction{
+  display:grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 2fr;
+}
+
+section#explained div,
+section#data div,
+section#calltoaction div {
+  min-height: 150px;
+  margin-bottom: 15px;
+  font-size: 20px
+}
+
+section#explained p,
+section#data p,
+section#calltoaction p{
+  font-size:15px
+}
+
+div#twitter{
+  background:lightskyblue;
+}
+
+div#buzzfeed{
+  background:brown;
+}
+
+div#facebook{
+  background:royalblue;
+}
