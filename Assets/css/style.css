@@ -4,7 +4,6 @@ section#data,
 section#calltoaction{
   display:grid;
   grid-gap: 15px;
-  grid-template-columns: 1fr 2fr;
 }
 
 section#explained div,
@@ -46,3 +45,12 @@ section#opening{
 section#explained{
 	grid-template-columns: 2fr 1fr 1fr 1fr
 	grid-template-rows: 2-3;
+	}
+	
+section#data{
+  grid-template-columns: 1fr 2fr;
+  }
+
+section#calltoaction{
+  grid-template-columns: 1fr 2fr;
+  }
