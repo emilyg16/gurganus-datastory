@@ -48,8 +48,7 @@ section#opening{
 	}
 
 section#explained{
-	grid-template-columns: 2fr 1fr 1fr 1fr
-	grid-template-rows: 2-3;
+	grid-template-columns: repeat (auto-fit, minmax(320px, 1fr));
 	}
 	
 section#data{
