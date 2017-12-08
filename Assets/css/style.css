@@ -15,6 +15,7 @@ section#calltoaction div {
   font-size: 20px
 }
 
+section#opening p,
 section#explained p,
 section#data p,
 section#calltoaction p{
@@ -37,3 +38,11 @@ h4 {
 	text-align:center;
 	font-size:30px;
 	}
+	
+section#opening{
+	grid-template-columns: 1fr 2fr;
+	}
+
+section#explained{
+	grid-template-columns: 2fr 1fr 1fr 1fr
+	grid-template-rows: 2-3;
