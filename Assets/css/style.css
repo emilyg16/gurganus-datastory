@@ -38,6 +38,11 @@ h4 {
 	font-size:30px;
 	}
 	
+h5 {
+	text-align:center;
+	font-size: auto;
+	}
+	
 section#opening{
 	grid-template-columns: 1fr 2fr;
 	}
