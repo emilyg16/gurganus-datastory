@@ -58,9 +58,6 @@ section#data{
   grid-template-columns: 1fr;
   }
 
-section#calltoaction{
-  grid-template-columns: 1fr 2fr;
-  }
   
 section#calltoaction {
 	grid-template-columns: repeat(minmax(320px, 1fr), 1fr);
