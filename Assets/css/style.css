@@ -4,7 +4,7 @@ section#data,
 section#calltoaction{
   display:grid;
   grid-gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns:auto-fit, minmax(320px, 1fr);
 }
 
 section#opening div,
@@ -57,6 +57,24 @@ section#opening {
 section#data{
   grid-template-columns: 1fr;
   }
+
+@media screen and (min-width: 1080px) {
+section#explained{ 
+/* however to make it so the min max works so that the full video shows on the left, then the divs twitter, facebook, buzzfeed*/
+}
+section#calltoaction{
+/*however to make it so the min max works so that the full video shows on the right, then the divs explanation and what can we do on the left and bottom*/
+}
+
+@media screen and (min-width: 670px) {
+section#explained{
+/*same as explained for min width 1080px*/
+}
+section#calltoaction{
+/*same as above, but full video taking up one column and one row and the divs equally below*/
+}
+
+
 
   
   
