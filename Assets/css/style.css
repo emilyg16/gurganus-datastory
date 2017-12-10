@@ -4,6 +4,7 @@ section#data,
 section#calltoaction{
   display:grid;
   grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 section#opening div,
@@ -53,16 +54,14 @@ section#opening {
   }
   
 section#explained{
-	grid-template-columns: repeat (minmax(320px, 1fr), auto-fit);
-	}
+	
 	
 section#data{
   grid-template-columns: 1fr;
   }
 
 section#calltoaction {
-	grid-template-columns: repeat (minmax(320px, 1fr), auto-fit);
-	}
+	
   
   
   
