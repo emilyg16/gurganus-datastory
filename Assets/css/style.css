@@ -4,6 +4,7 @@ section#data,
 section#calltoaction{
   display:grid;
   grid-gap: 15px;
+  grid-template-columns: 1fr 2fr;
 }
 
 section#explained div,
@@ -43,9 +44,7 @@ h5 {
 	font-size: 30px;
 	}
 	
-section#opening{
-	grid-template-columns: 1fr 2fr;
-	}
+section#opening
 
 section#explained{
 	grid-template-columns: repeat (auto-fit, minmax(320px, 1fr));
