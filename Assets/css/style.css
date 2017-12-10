@@ -61,7 +61,7 @@ section#data{
 
   
 section#calltoaction {
-	grid-template-columns: (minmax(320px, 1fr), auto-fit);
+	grid-template-columns: repeat (1fr);
 	}
   
   
