@@ -4,7 +4,7 @@ section#data,
 section#calltoaction{
   display:grid;
   grid-gap: 15px;
-  grid-template-columns:auto-fit, minmax(320px, 1fr);
+  grid-template-columns:minmax(320px, 1fr);
 }
 
 section#opening div,
