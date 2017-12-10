@@ -52,8 +52,6 @@ section#opening {
   grid-template-columns: 1fr 2fr;
   }
   
-  
-
 section#explained{
 	grid-template-columns: repeat (minmax(320px, 1fr), auto-fit);
 	}
@@ -62,9 +60,8 @@ section#data{
   grid-template-columns: 1fr;
   }
 
-  
 section#calltoaction {
-	grid-template-columns: repeat (1fr);
+	grid-template-columns: repeat (minmax(320px, 1fr), auto-fit);
 	}
   
   
