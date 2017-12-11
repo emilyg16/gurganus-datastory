@@ -4,6 +4,7 @@
 section#opening,
 section#explained,
 section#data,
+section#apps,
 section#calltoaction{
   display:grid;
   grid-gap: 15px;
@@ -16,6 +17,7 @@ section#calltoaction{
 section#opening div,
 section#explained div,
 section#data div,
+section#apps div,
 section#calltoaction div {
   min-height: 150px;
   margin-bottom: 15px;
@@ -25,6 +27,7 @@ section#calltoaction div {
 section#opening p,
 section#explained p,
 section#data p,
+section#apps p,
 section#calltoaction p{
   font-size:15px
 }
