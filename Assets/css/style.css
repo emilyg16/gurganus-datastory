@@ -81,22 +81,29 @@ section#data{
 
 @media screen and (min-width: 1080px) {
 section#opening{
-/* make it 1fr 2fr */
-}
-
+  grid-template-columns: 1fr 2fr;
+   }
+  
 section#explained{ 
 /* however to make it so the min max works so that the full video shows on the left, then the divs twitter, facebook, buzzfeed*/
-}
+  }
+  
 section#calltoaction{
 /*however to make it so the min max works so that the full video shows on the right, then the divs explanation and what can we do on the left and bottom*/
+  }
 }
 
+
 @media screen and (min-width: 670px) {
+section#opening{
+  grid-template-columns: 1fr 2fr;
+  }
 section#explained{
 /*same as explained for min width 1080px*/
-}
+  }
 section#calltoaction{
 /*same as above, but full video taking up one column and one row and the divs equally below*/
+  }
 }
 
 
