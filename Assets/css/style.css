@@ -75,6 +75,13 @@ section#data{
   grid-template-columns: 1fr;
   }
   
+/* --------
+   images
+   -------- */
+Img {
+Width: 100% 
+}
+  
 /* -----------------------------------
    changing styles for bigger screens
    ----------------------------------- */
