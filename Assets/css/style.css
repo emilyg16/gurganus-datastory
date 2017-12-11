@@ -2,9 +2,9 @@
     Grid style
     ------------ */
 section#opening,
-section#explained,
 section#data,
 section#apps,
+section#explained,
 section#calltoaction{
   display:grid;
   grid-gap: 15px;
@@ -15,9 +15,9 @@ section#calltoaction{
     general 
    ----------- */
 section#opening div,
-section#explained div,
 section#data div,
 section#apps div,
+section#explained div,
 section#calltoaction div {
   min-height: 150px;
   margin-bottom: 15px;
@@ -25,9 +25,9 @@ section#calltoaction div {
 }
 
 section#opening p,
-section#explained p,
 section#data p,
 section#apps p,
+section#explained p,
 section#calltoaction p{
   font-size:15px
 }
@@ -84,6 +84,23 @@ section#data{
 Img {
 Width: 100% 
 }
+
+/* --------
+    videos
+    ------- */
+Div.video-container {
+	Position:relative;
+	Width: 100%;
+}
+
+Div.video-container iframe {
+	Position:absolute;
+	Top: 0 left: 0;
+	Margin-left: 15 px;
+	Width: 80%;
+	Height: 80%;
+}
+
   
 /* -----------------------------------
    changing styles for bigger screens
@@ -93,7 +110,9 @@ Width: 100%
 section#opening{
   grid-template-columns: 1fr 2fr;
    }
-  
+
+
+
 section#explained{ 
 /* however to make it so the min max works so that the full video shows on the left, then the divs twitter, facebook, buzzfeed*/
   }
