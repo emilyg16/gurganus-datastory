@@ -88,18 +88,7 @@ Width: 100%
 /* --------
     videos
     ------- */
-div.video-container {
-  position: relative;
-  width: 100%;
-}
-div.video-container iframe {
-  position: absolute;
-  top: 0; left: 0;
-  margin-left: 15px;
-  width: 80%;
-  height: 80%;
-  
-}
+
 
   
 /* -----------------------------------
