@@ -102,7 +102,7 @@ section#opening{
    }
 
 section#data{
-  grid-template-columns: minmax(1fr, 670px) 1fr
+  grid-template-columns: 2fr 1fr;
   } 
 
 section#explained{ 
