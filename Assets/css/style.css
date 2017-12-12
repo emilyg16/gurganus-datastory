@@ -103,7 +103,7 @@ section#opening{
 
 section#data{
   grid-template-columns: 2fr 1fr;
-   img#data {float: left;}
+   
   } 
 
 section#explained{ 
@@ -122,7 +122,7 @@ section#opening{
   }
   
   section#data{
-  grid-template-columns: repeat(1fr)
+  grid-template-columns: 2fr 1 fr;
   } 
   
 section#explained{
