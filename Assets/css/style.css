@@ -96,11 +96,14 @@ Width: 100%
    ----------------------------------- */
 
 @media screen and (min-width: 1080px) {
+
 section#opening{
   grid-template-columns: 1fr 2fr;
    }
 
-
+section#data{
+  grid-template-columns: minmax(1fr, 670px) 1fr
+  } 
 
 section#explained{ 
 /* however to make it so the min max works so that the full video shows on the left, then the divs twitter, facebook, buzzfeed*/
