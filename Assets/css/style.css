@@ -114,7 +114,7 @@ section#calltoaction{
 @media screen and (min-width: 670px) {
 
 section#explained{
-grid-template-column:auto-fit
+grid-template-column:auto-fit;
 /*same as explained for min width 1080px*/
   }
 
