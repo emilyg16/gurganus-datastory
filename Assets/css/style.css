@@ -101,6 +101,10 @@ Width: 100%
 
 @media screen and (min-width: 1080px) {
 
+section#data img{
+  float: left;
+  }
+  
 section#explained{ 
 /* however to make it so the min max works so that the full video shows on the left, then the divs twitter, facebook, buzzfeed*/
   }
@@ -114,7 +118,6 @@ section#calltoaction{
 @media screen and (min-width: 670px) {
 
 section#explained{
-grid-template-columns:auto-fit;
 /*same as explained for min width 1080px*/
   }
 
