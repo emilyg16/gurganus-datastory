@@ -44,7 +44,7 @@ div#buzzfeed{
 }
 
 div#facebook{
-  background:pink;
+  background:royalblue;
 	}
 	
 /* ---------------
@@ -113,7 +113,7 @@ section#explained{
 /*same as explained for min width 1080px*/
   }
 section#calltoaction{
-/*same as above, but full video taking up one column and one row and the divs equally below*/
+grid-template-columns: 1fr 1fr;
   }
 }
 
