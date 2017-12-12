@@ -78,6 +78,10 @@ section#data{
   grid-template-columns: 1fr;
   }
   
+  section#calltoaction{
+grid-template-rows: fit-content(100%);
+  }
+  
 /* --------
    images
    -------- */
@@ -113,10 +117,7 @@ section#explained{
 grid-template-column:auto-fit
 /*same as explained for min width 1080px*/
   }
-section#calltoaction{
-grid-template-rows: fit-content(100%);
-  }
-}
+
 
 
 
