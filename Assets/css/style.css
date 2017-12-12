@@ -119,6 +119,11 @@ section#calltoaction{
 section#opening{
   grid-template-columns: 1fr 2fr;
   }
+  
+  section#data{
+  grid-template-columns: 2fr 1fr;
+  } 
+  
 section#explained{
 /*same as explained for min width 1080px*/
   }
