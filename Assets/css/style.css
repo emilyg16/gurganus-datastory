@@ -113,7 +113,7 @@ section#explained{
 /*same as explained for min width 1080px*/
   }
 section#calltoaction{
-grid-template-rows: fit-content(100%) 1fr 1fr;
+grid-template-rows: fit-content(100%);
   }
 }
 
