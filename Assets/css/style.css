@@ -93,13 +93,24 @@ Width: 100%
     videos
     ------- */
 
+Div#video-container {
+Position: relative;
+Width: 100%
 
+Div#video-container iframe{
+Position: absolute;
+Top: 0; left: 0;
+
+Margin-left:15px;
+Width:80%;
+Height:80%;
+}
   
 /* -----------------------------------
    changing styles for bigger screens
    ----------------------------------- */
 
-@media screen and (min-width: 1080px) {
+@media only screen and (min-width: 1080px) {
 
 section#data img{
   grid-template-columns: 2fr 1fr
