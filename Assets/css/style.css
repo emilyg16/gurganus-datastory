@@ -73,8 +73,8 @@ section#opening p{
 	text-align: center;
 	}
 	
-p#writing {
-	font-size: 25px;
+p.writing {
+	font-size: 30px;
 	}
 	
 /* ----------------------
@@ -104,20 +104,6 @@ Width: 100%
 /* --------
     videos
     ------- */
-
-Div#video-container {
-Position: relative;
-Width: 100%
-
-Div#video-container iframe{
-display:block;
-Position: absolute;
-Top: 0; left: 0;
-
-Margin-left:15px;
-Width:80%;
-Height:80%;
-}
   
 /* -----------------------------------
    changing styles for bigger screens
