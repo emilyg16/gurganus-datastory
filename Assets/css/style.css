@@ -73,6 +73,10 @@ section#opening p{
 	text-align: center;
 	}
 	
+p#explantion {
+	font-size: 25px;
+	}
+	
 /* ----------------------
    differing grid styles
    ---------------------- */
