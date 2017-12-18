@@ -54,8 +54,8 @@ div#facebook{
 /* ---------------
     font specifics 
    --------------- */
-html *{
-	font-family: Abel;
+body{
+	font-family: comic sans;
 	}
 
 h1 {
