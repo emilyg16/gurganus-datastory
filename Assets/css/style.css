@@ -54,7 +54,7 @@ div#facebook{
 /* ---------------
     font specifics 
    --------------- */
-html p {
+* p {
 	font-family: georgia;
 	}
 	
