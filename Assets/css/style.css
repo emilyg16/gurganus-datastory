@@ -36,7 +36,7 @@ section#calltoaction p{
      colors
    ----------- */ 
 html {
-  background: radial-gradient(circle at top left, aliceblue, indianred);
+  background: linear-gradient(to bottom right, aliceblue, indianred);
 }
 
 div#twitter{
