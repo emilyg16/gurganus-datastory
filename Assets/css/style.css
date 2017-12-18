@@ -36,7 +36,7 @@ section#calltoaction p{
      colors
    ----------- */ 
 html {
-  background: linear-gradient(to bottom right, lightskyblue, red);
+  background: linear-gradient(to bottom right, lightskyblue, firebrick);
 }
 
 div#twitter{
