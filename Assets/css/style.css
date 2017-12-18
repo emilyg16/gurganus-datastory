@@ -35,6 +35,7 @@ section#calltoaction p{
 section#opening p,
 section#data p,
 section#calltoaction p{
+  background: white;
   border: 1px solid;
   padding: 10px;
    box-shadow: 5px 10px 18px black;
