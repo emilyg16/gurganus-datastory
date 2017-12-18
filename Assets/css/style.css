@@ -115,7 +115,6 @@ section#apps p{
   
 section#calltoaction{
   grid-template-rows: fit-content(100%);
-  grid-template-columns: 1fr 1fr;
   }
   
   
