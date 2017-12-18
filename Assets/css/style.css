@@ -113,8 +113,9 @@ section#apps p{
 	margin-left: 20px;
 	}
   
-  section#calltoaction{
-grid-template-rows: fit-content(100%);
+section#calltoaction{
+  grid-template-rows: fit-content(100%);
+  grid-template-columns: 1fr 1fr;
   }
   
   
