@@ -102,7 +102,7 @@ section#data{
   grid-template-columns: 1fr;
   }
   
-section#apps{
+section#apps p{
 	margin-left: 20px;
 	}
   
