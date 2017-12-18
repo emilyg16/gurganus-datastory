@@ -22,7 +22,6 @@ section#calltoaction div {
   min-height: 150px;
   margin-bottom: 15px;
   font-size: 20px
-  border: 1px solid;
 }
 
 section#opening p,
@@ -30,6 +29,7 @@ section#data p,
 section#apps p,
 section#explained p,
 section#calltoaction p{
+  border: 1px solid;
   font-size:15px
 }
 
