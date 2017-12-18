@@ -132,9 +132,9 @@ Width: 100%
    changing styles for bigger screens
    ----------------------------------- */
 
-@media only screen and (min-width: 1080px) {
+@media screen and (min-width:1080px)
 
-section#data img{
+section#data {
   grid-template-columns: 2fr 1fr;
   }
   
