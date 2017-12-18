@@ -35,6 +35,10 @@ section#calltoaction p{
 /* -----------
      colors
    ----------- */ 
+html {
+  background: radial-gradient(circle at top left, aliceblue, indianred);
+}
+
 div#twitter{
   background:lightskyblue;
 }
@@ -105,7 +109,6 @@ Width: 100%
 /* --------
     videos
     ------- */
-  
 /* -----------------------------------
    changing styles for bigger screens
    ----------------------------------- */
