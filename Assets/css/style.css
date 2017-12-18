@@ -35,7 +35,7 @@ section#calltoaction p{
 section#opening p,
 section#data p,
 section#calltoaction p
-:not (#mention) {
+:not(#mention) {
   background: white;
   border: 1px solid;
   padding: 10px;
