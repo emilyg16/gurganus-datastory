@@ -54,7 +54,10 @@ div#facebook{
 /* ---------------
     font specifics 
    --------------- */
-
+html p {
+	font-family: georgia;
+	}
+	
 h1 {
 	text-align:center;
 	font-size: 50px;
