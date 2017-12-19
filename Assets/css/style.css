@@ -146,10 +146,9 @@ Width: 100%
 
 @media screen and (max-width: 670px) {
   section#calltoaction{
-   grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
-
 
 
   
