@@ -87,10 +87,6 @@ h4 {
 h5 {
 	font-size: 40px;
 	}
-
-h7 {
-	font-size: 25px;
-	}
 	
 section#opening p{
 	font-weight: normal;
@@ -98,6 +94,10 @@ section#opening p{
 	}
 	
 div#writing p{
+	font-size: 25px;
+	}
+	
+div#footer p{
 	font-size: 25px;
 	}
 	
