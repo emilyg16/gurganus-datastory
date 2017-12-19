@@ -51,15 +51,15 @@ html {
   background: linear-gradient(to bottom right, lightskyblue, maroon);
 }
 
-div#twitter{
+div.twitter{
   background:lightskyblue;
 }
 
-div#buzzfeed{
+div.buzzfeed{
   background:brown;
 }
 
-div#facebook{
+div.facebook{
   background:royalblue;
 	}
 	
@@ -94,7 +94,7 @@ section#opening p{
 	}
 	
 	
-div#footer p{
+div.footer p{
 	font-size: 25px;
 	}
 	
