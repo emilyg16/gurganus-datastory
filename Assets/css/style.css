@@ -137,6 +137,11 @@ Width: 100%
   }
 }
 
+@media screen and (max-width: 670px) {
+  section#opening {
+    grid-template-columns: 1fr;
+  }
+}
 
 
   
