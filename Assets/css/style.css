@@ -130,9 +130,6 @@ Img {
 Width: 100% 
 }
 
-/* --------
-    videos
-    ------- */
 /* -----------------------------------
    changing styles for bigger screens
    ----------------------------------- */
@@ -143,12 +140,6 @@ Width: 100%
   }
 }
 
-
-@media screen and (min-width: 670px) {
-  section#calltoaction{
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
 
   
