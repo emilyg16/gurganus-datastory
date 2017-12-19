@@ -139,7 +139,8 @@ Width: 100%
 
 @media screen and (max-width: 670px) {
   section#opening {
-    grid-template-columns: 1fr;
+    grid-row: 1;
+    grid-column: 1;
   }
 }
 
