@@ -138,7 +138,11 @@ Width: 100%
 }
 
 @media screen and (max-width: 670px) {
-  section#opening {
+  section#opening div#whatis{
+    grid-row: 1;
+    grid-column: 1;
+  }
+ section#opening div#developers{
     grid-row: 1;
     grid-column: 1;
   }
