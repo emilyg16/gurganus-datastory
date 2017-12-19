@@ -135,8 +135,8 @@ Width: 100%
    ----------------------------------- */
    
   @media screen and (min-width:1080px) {
-  section#calltoaction {
-    grid-template-columns: 1fr 40%;
+  section#apps {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
