@@ -133,28 +133,12 @@ Width: 100%
 /* -----------------------------------
    changing styles for bigger screens
    ----------------------------------- */
-
-@media screen and (min-width:1080px)
-
-section#data {
-  grid-template-columns: 2fr 1fr;
-  }
-  
-section#explained{ 
-/* however to make it so the min max works so that the full video shows on the left, then the divs twitter, facebook, buzzfeed*/
-  }
-  
-section#calltoaction{
-/*however to make it so the min max works so that the full video shows on the right, then the divs explanation and what can we do on the left and bottom*/
+   
+  @media screen and (min-width:1080px) {
+  section#calltoaction {
+    grid-template-columns: 1fr 40%;
   }
 }
-
-
-@media screen and (min-width: 670px) {
-
-section#explained{
-/*same as explained for min width 1080px*/
-  }
 
 
 
