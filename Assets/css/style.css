@@ -141,6 +141,15 @@ Width: 100%
 }
 
 
+@media screen and (max-width: 670px) {
+  section#calltoaction div#TedTalkExplanation {
+    float:left;
+    }
+  section#calltoaction div#WhatCanWeDo {
+  	float:right;
+  }
+}
+
 
 
   
